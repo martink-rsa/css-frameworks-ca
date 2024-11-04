@@ -4,8 +4,14 @@
   "description": "This is a Tailwind-based CSS Frameworks course assignment.",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/style.css --minify",
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/styles.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Martin Kruger"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
 }
