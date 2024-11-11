@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Frameworks CA - Profile</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="../scripts/darkMode.js"></script>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+    <div class="min-h-screen flex flex-col items-center">
+      <header
+        class="w-full bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center"
+      >
+        <a href="/"
+          ><h1 class="text-2xl font-bold text-gray-800 dark:text-white">
+            Code Haven
+          </h1></a
+        >
+        <nav class="flex items-center space-x-4">
+          <a href="/feed" class="text-red-600 dark:text-red-400 hover:underline"
+            >Feed</a
+          >
+          <button
+            id="darkModeToggle"
+            class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white p-2 rounded-full shadow-md"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          </button>
+        </nav>
+      </header>
+
+      <main class="w-full max-w-3xl p-4 space-y-8">
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center space-y-4"
+        >
+          <img
+            src="https://i.pravatar.cc/100?img=3"
+            alt="profile image"
+            class="w-24 h-24 rounded-full mx-auto"
+          />
+          <h2 class="text-2xl font-semibold text-gray-800 dark:text-white">
+            Ola Nordmann
+          </h2>
+          <button
+            class="bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-400"
+          >
+            Follow
+          </button>
+          <div
+            class="flex justify-center space-x-8 text-gray-600 dark:text-gray-300"
+          >
+            <div>
+              <span class="font-bold text-gray-800 dark:text-white">23</span>
+              Followers
+            </div>
+            <div>
+              <span class="font-bold text-gray-800 dark:text-white">11</span>
+              Following
+            </div>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+            User's Posts
+          </h3>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <p class="text-gray-600 dark:text-gray-300 mb-2">
+              I love JavaScript! I feel like a pro.
+            </p>
+            <p class="text-sm text-gray-400 dark:text-gray-500">
+              November 9, 2024 • 14:30
+            </p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <p class="text-gray-600 dark:text-gray-300 mb-2">
+              OMG, I hate JavaScript, it makes no sense!
+            </p>
+            <p class="text-sm text-gray-400 dark:text-gray-500">
+              November 8, 2024 • 19:45
+            </p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <p class="text-gray-600 dark:text-gray-300 mb-2">
+              My code works! I love JavaScript!
+            </p>
+            <p class="text-sm text-gray-400 dark:text-gray-500">
+              November 7, 2024 • 11:20
+            </p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <p class="text-gray-600 dark:text-gray-300 mb-2">
+              I love learning web development!
+            </p>
+            <p class="text-sm text-gray-400 dark:text-gray-500">
+              November 6, 2024 • 09:15
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
